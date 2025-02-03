@@ -1,0 +1,55 @@
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    top: 0;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .navbar-icon {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 0.5rem; /* Add some space between the icon and the text */
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .nav-link {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: bold
+  }
+  
+  .btn-logout {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: larger;
+    font-weight: bold
+  }
+  
+  .btn-logout:hover {
+    background-color: #ff1a1a;
+  }
+  

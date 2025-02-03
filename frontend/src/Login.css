@@ -1,0 +1,55 @@
+/* Login page CSS */
+
+.login {
+  background-color: #F0F0D7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #727D73;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: -250px;
+}
+
+.navbar-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.login .app-img img {
+  width: auto;
+  max-width: 500px;
+  max-height: 700px;
+  border-radius: 8px;
+  margin-left: -250px;
+  margin-top: 100px;
+}
+
+.login .login-container {
+  max-width: 500px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #646cff;
+}
+
+button:hover {
+  background-color: #535bf2;
+}
+
+/* Adding box shadow to login container */
+.login .login-container {
+  box-shadow: 0 10px 20px rgba(114, 125, 115, 0.7); /* Matching navbar color */
+  margin-left: 850px;
+  margin-top: -520px;
+}

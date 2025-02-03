@@ -1,0 +1,581 @@
+/* .whole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.signup-container {
+  width: 400px; /* Adjust width as needed */
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #b4a8a8;
+  color: black;
+  box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a cleaner look */
+  justify-content: center;
+  transform: translate(1000px, -480px); /* Adjust as needed */
+  /* position: fixed; */
+}
+
+.signup-container h2 {
+  margin-bottom: 1rem;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.signup-container label {
+  margin-right: 1rem;
+  width: 100px; /* Adjust width as needed */
+}
+
+/* Hide spinner controls for number input */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.signup-container input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-container button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+}
+
+.signup-container button:hover {
+  background-color: #535bf2;
+}
+
+.signup-container p {
+  margin-top: 5rem;
+  color: red;
+}
+
+
+.app-img{
+  transform: translate(900px, 500px);
+  /* position: fixed; */
+}
+
+.app-img > img {
+  width: 700px;
+  height: 700px;
+  border-radius: 8px;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  top: 0;
+  position: fixed;
+  left: 0;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-icon {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 0.5rem; /* Add some space between the icon and the text */
+} */
+
+
+login-css
+
+
+.login-container {
+    width: 400px; /* Adjust width as needed */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #b4a8a8;
+    color: black;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a cleaner look */
+    justify-content: center;
+    transform: translate(1000px, -400px); /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .login-container label {
+    margin-right: 1rem;
+    width: 100px; /* Adjust width as needed */
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-container input {
+    flex: 1;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-container button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #646cff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #535bf2;
+  }
+  
+  .login-container p {
+    margin-top: 1rem;
+    color: red;
+  }
+  
+  .app-img{
+    transform: translate(150px, 200px);
+    overflow: hidden;
+  }
+  
+  .app-img > img {
+    width: 700px;
+    height: 700px;
+    border-radius: 8px;
+  }
+  
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    top: 0;
+    position: fixed;
+    left: 0;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .navbar-icon {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 0.5rem; /* Add some space between the icon and the text */
+  }
+
+
+  home.css
+
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    top: 0;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .navbar-icon {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 0.5rem; /* Add some space between the icon and the text */
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .nav-link {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: bold
+  }
+  
+  .btn-logout {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: larger;
+    font-weight: bold
+  }
+  
+  .btn-logout:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .user-details{
+  
+    background-color: white; /* Set background color for the box */
+    border: 4px solid #333; /* Set border color and width */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    padding: 1rem; /* Add padding inside the box */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a cleaner look */
+    max-width:max-content; /* Optional: Set a maximum width for the box */
+    width: 100%; /* Ensure the box takes up the full width within the max-width */
+    margin: 1rem auto; /* Center the box horizontally */
+    text-align: left; /* Align text to the left */
+    transform : translate(200px, 200px);
+    
+  }
+  
+  .user-details h2 {
+    margin-bottom: 1rem;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  
+  .user-details p {
+    margin-bottom: 0.5rem;
+    font-size: x-large;
+  }
+  
+  .btn-edit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  
+  .btn-edit:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .Seller-reviews {
+    background-color: white; /* Set background color for the box */
+    border: 4px solid #333; /* Set border color and width */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    padding: 1rem; /* Add padding inside the box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a cleaner look */
+    max-width: 600px; /* Optional: Set a maximum width for the box */
+    width: 100%; /* Ensure the box takes up the full width within the max-width */
+    margin: 1rem auto; /* Center the box horizontally */
+    text-align: left; /* Align text to the left */
+    transform: translate(800px, -100px);
+  }
+  
+  .reviews-box {
+    max-height: 200px; /* Set a maximum height for the reviews box */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 1rem; /* Add padding inside the box */
+    border: 1px solid #ccc; /* Optional: Add a border to the reviews box */
+    border-radius: 4px; /* Optional: Add rounded corners */
+  }
+  
+  .Sell-item-add{
+    background-color: white; /* Set background color for the box */
+    border: 4px solid #333; /* Set border color and width */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    padding: 1rem; /* Add padding inside the box */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a cleaner look */
+    max-width:max-content; /* Optional: Set a maximum width for the box */
+    width: 100%; /* Ensure the box takes up the full width within the max-width */
+    margin: 1rem auto; /* Center the box horizontally */
+    text-align: left; /* Align text to the left */
+     transform : translate(1300px, -300px); 
+    /* position: fixed; */
+    
+  }
+  
+  .Sell-item-add form {
+    display: flex;
+    flex-direction: column; /* Ensures items are stacked vertically */
+    max-width: 400px; /* Optional: Limit the form width */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .Sell-item-add form label {
+    margin-bottom: 10px; /* Add spacing between labels and inputs */
+    font-weight: bold; /* Optional: Make the label text bold */
+  }
+  
+  .Sell-item-add form button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .Sell-item-add form button:hover {
+    background-color: green; /* Change color on hover */
+  }
+  
+  .Sell-item-add form input,
+  .Sell-item-add form select,
+  .Sell-item-add form textarea {
+    width: 100%; /* Full-width inputs */
+    padding: 8px; /* Add some padding for better appearance */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Add border for inputs */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Consistent font size */
+    background-color: white; /* White background for input fields */
+    color: #000; /* Black text color for readability */
+  }
+  
+  .black-line {
+    border: none;
+    border-top: 5px solid black;
+    width: 510%;
+  }
+  
+  .my-items {
+    width: 100%;
+    max-width: 800px;
+    margin-left: 2rem ;
+    text-align: left;
+  }
+  
+  .items-box {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; /* Add gap between item boxes */
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 1 rem;
+  }
+
+  Search-items.css
+
+  .body {
+    background-color:  #F0F0D7;;
+  }
+  
+  .search-bar {
+    margin-top: 80px; /* Adjust to avoid overlap with the fixed navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: sticky; /* Make the search bar sticky */
+    top: 60px; /* Adjust based on the height of the navbar */
+    background-color:   #F0F0D7;; /* Ensure the background color matches the page */
+    z-index: 999; /* Ensure the search bar is above other content */
+  }
+  
+  .search-bar form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; /* Rounded corners for the left side */
+    outline: none;
+  }
+  
+  .search-button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0; /* Rounded corners for the right side */
+  }
+  
+  .search-icon {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    padding: 0 2rem;
+  }
+  
+  .filter-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-right: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Set a fixed width for the filter box */
+  }
+  
+  .filter-box h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .filter-box .price-range,
+  .filter-box .categories {
+    margin-bottom: 1rem;
+  }
+  
+  .filter-box label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-box input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+  }
+  
+  .filter-box input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  .items-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem; /* Add gap between item boxes */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex-grow: 1; /* Allow the items list to take up the remaining space */
+  }
+  
+  .item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed; /* Fix the navbar at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the navbar is above other content */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-logout {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-logout:hover {
+    background-color: #ff1a1a;
+  }

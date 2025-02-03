@@ -1,0 +1,195 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F0D7;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if the screen is too small */
+  gap: 30px; /* Adds space between the two containers */
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: #727D73;
+}
+
+.navbar-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: flex-end; /* Align links to the right */
+  /*flex-grow: 5;  Take up all remaining space to push links to the right */
+  transform: translateX(270px);
+  
+}
+
+.navbar-links .nav-link {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 30px;
+  
+}
+
+.navbar-links .nav-link:hover {
+  color: #ddd;
+}
+
+.navbar .btn-logout {
+  background-color: #d9534f;
+  border-color: #d9534f;
+  color: #fff;
+}
+
+.navbar .btn-logout:hover {
+  background-color: #c9302c;
+  border-color: #c9302c;
+}
+
+.user-details, .Sell-item-add {
+  flex: 1; /* Each container will take up equal space */
+  min-width: 300px; /* Prevent the containers from becoming too narrow */
+  box-sizing: border-box; /* Ensures padding and borders don't affect the width */
+  transform: translateY(100px);
+  min-height: 100px;
+}
+
+.user-details form, .Sell-item-add form {
+  width: 100%; /* Ensure form takes up full width of the container */
+}
+
+/* User Details */
+.user-details {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-details h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-details p {
+  font-size: 16px;
+}
+
+.user-details .btn-edit {
+  background-color: #0275d8;
+  color: white;
+  border-radius: 5px;
+}
+
+.user-details .btn-edit:hover {
+  background-color: #025aa5;
+}
+
+/* Sell Item Form */
+.Sell-item-add {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Sell-item-add form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Sell-item-add label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.Sell-item-add input, .Sell-item-add select, .Sell-item-add textarea {
+  margin-bottom: 15px;
+}
+
+.Sell-item-add button {
+  background-color: #0275d8;
+  color: white;
+  font-size: 16px;
+}
+
+.Sell-item-add button:hover {
+  background-color: #025aa5;
+}
+
+/* My Items Section */
+.my-items {
+  margin-top: 70px;
+  transform: translateY(20px);
+}
+
+.my-items h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.items-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.items-box .item-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.items-box .item-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.items-box .item-card p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.items-box .item-card .btn {
+  background-color: #0275d8;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.items-box .item-card .btn:hover {
+  background-color: #025aa5;
+}
+
+/* Responsive Design */
+@media (min-width: 576px) {
+  .items-box .item-card {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (min-width: 768px) {
+  .items-box .item-card {
+    width: calc(33.333% - 13px);
+  }
+}
+
+@media (min-width: 992px) {
+  .items-box .item-card {
+    width: calc(25% - 15px);
+  }
+}
+
+/* Black Line Divider */
+.black-line {
+  border: 1px solid #333;
+  margin: 40px 10px;
+}
