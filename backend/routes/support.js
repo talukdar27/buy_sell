@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const chatController = require('../controllers/chatController');
-const { authenticateToken } = require('./auth'); // Import only the authenticateToken function
+const { authenticateToken } = require('./auth'); 
 
 // Define your routes here
 // router.post('/', authenticateToken, chatController.handleChat);

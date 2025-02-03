@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
-const Item = require('../models/item'); // Import Item model
-const DeliverItem = require('../models/deliver_items'); // Import DeliverItem model
+const Item = require('../models/item'); 
+const DeliverItem = require('../models/deliver_items'); 
 const { authenticateToken } = require('./auth');
 
 // Add item to cart
@@ -43,47 +43,6 @@ router.post('/add', authenticateToken, async (req, res) => {
   }
 });
 
-// Remove item from cart
-// router.post('/remove', authenticateToken, async (req, res) => {
-//   try {
-//     const { itemId } = req.body;
-//     console.log('Removing from cart - User ID:', req.user.userId);
-//     console.log('Item ID:', itemId);
-
-//     if (!itemId) {
-//       return res.status(400).json({ message: 'Item ID is required' });
-//     }
-
-//     const user = await User.findById(req.user.userId);
-//     if (!user) {
-//       return res.status(404).json({ message: 'User not found' });
-//     }
-
-//     // const itemIndex = user.item_cart.indexOf(itemId);
-//     const itemIndex = user.item_cart.findIndex(
-//         (cartItemId) => cartItemId.toString() === itemId
-//       );
-
-
-//     if (itemIndex === -1) {
-//       return res.status(400).json({ message: 'Item not in cart' });
-//     }
-
-//     user.item_cart.splice(itemIndex, 1);
-//     await user.save();
-//     const updatedCart = await User.findById(req.user.userId)
-//       .populate('item_cart')
-//       .select('item_cart');
-
-//     res.json({ message: 'Item removed from cart successfully', cart: user.item_cart });
-//   } catch (error) {
-//     console.error('Error removing item from cart:', error);
-//     if (error.name === 'CastError') {
-//       return res.status(400).json({ message: 'Invalid item ID format' });
-//     }
-//     res.status(500).json({ message: 'Server error', error: error.message });
-//   }
-// });
 
 router.delete('/remove', authenticateToken, async (req, res) => {
     console.log('===== REMOVE FROM CART REQUEST =====');

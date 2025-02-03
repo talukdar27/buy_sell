@@ -99,34 +99,7 @@ function DeliverItems() {
             </div>
           </nav>
 
-      {/* <div className="deliver-items-container">
-        <h2>Items to Deliver</h2>
-        {deliverItems.length > 0 ? (
-          deliverItems.map((item) => (
-            <div key={item._id} className="deliver-item">
-              <h3>{item.itemId.itemName}</h3>
-              <p>Price: ${item.price}</p>
-              <p>Description: {item.itemId.description}</p>
-              <p>Buyer: {item.buyerId.firstName} {item.buyerId.lastName}</p>
-              <p>Buyer Email: {item.buyerId.email}</p>
-              <button className="btn btn-complete-transaction" onClick={() => handleCompleteTransaction(item._id)}>Complete Transaction</button>
-              {showOtpInput[item._id] && (
-                <div className="otp-input-container">
-                  <input
-                    type="text"
-                    placeholder="Enter OTP"
-                    value={otp}
-                    onChange={handleOtpChange}
-                  />
-                  <button className="btn btn-verify-otp" onClick={handleVerifyOtp}>Verify OTP</button>
-                </div>
-              )}
-            </div>
-          ))
-        ) : (
-          <p>No items to deliver.</p>
-        )}
-      </div> */}
+      
 
 <div className="container py-4">
       <div className="row mb-4">

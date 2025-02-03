@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const DeliverItem = require('../models/deliver_items');
 const Item = require('../models/item');
-const User = require('../models/user'); // Import User model
+const User = require('../models/user'); 
 const { authenticateToken } = require('./auth');
 const bcrypt = require('bcryptjs');
 

@@ -46,53 +46,7 @@ function Login() {
   };
 
   return (
-    // <>
-    //   <nav className="navbar">
-    //     <div className="navbar-brand">
-    //       <img
-    //         src="/650c7525713f5d255e612a01_Best-places-to-buy-websites.jpg"
-    //         alt="Buy&Sell Icon"
-    //         className="navbar-icon"
-    //       />
-    //       Buy&Sell
-    //     </div>
-    //    </nav>
-
-    //   <div className="app-img">
-    //     <img src="/Sale.jpg" alt="Sale" />
-    //   </div>
-    //   <div className="login-container container mt-5">
-    //     <h2 className="text-center mb-4">Login</h2>
-    //     <form onSubmit={handleSubmit}>
-    //       <div className="form-group">
-    //         <label>Email:</label>
-    //         <input
-    //           type="email"
-    //           className="form-control"
-    //           value={email}
-    //           onChange={(e) => setEmail(e.target.value)}
-    //           required
-    //         />
-    //       </div>
-    //       <div className="form-group">
-    //         <label>Password:</label>
-    //         <input
-    //           type="password"
-    //           className="form-control"
-    //           value={password}
-    //           onChange={(e) => setPassword(e.target.value)}
-    //           required
-    //         />
-    //       </div>
-    //       <button type="submit" className="btn btn-primary btn-block">Login</button>
-    //     </form>
-    //     {message && <p className="mt-3 text-center text-danger">{message}</p>}
-    //     <div>
-    //       <br></br>
-    //       <h5>If not registered, click here to <Link to="/signup">Signup</Link></h5>
-    //     </div>
-    //   </div>
-    // </>
+    
 
     <div className="login">
       <nav

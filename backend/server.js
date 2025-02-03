@@ -2,23 +2,23 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
-require('dotenv').config(); // Load environment variables from .env file
+require('dotenv').config(); 
 
 //const authRoutes = require('./routes/auth');
 const { router: authRouter } = require('./routes/auth');
 const itemRoutes = require('./routes/items');
 const cartRoutes = require('./routes/cart');
 const deliverItemsRoutes = require('./routes/deliverItems');
-const orderHistoryRoutes = require('./routes/order_history'); // Import order history routes
-const supportRoutes = require('./routes/support'); // Import support routes
+const orderHistoryRoutes = require('./routes/order_history'); 
+const supportRoutes = require('./routes/support'); 
 
 const app = express();
 const PORT =  5000;
 
 // Enable CORS
 app.use(cors( {
-  origin: 'http://localhost:5173', // Your frontend URL
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Explicitly allow DELETE
+  origin: 'http://localhost:5173', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }
@@ -52,8 +52,8 @@ app.use('/api/auth', authRouter);
 app.use('/api/items', itemRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/deliver-items', deliverItemsRoutes);
-app.use('/api/order-history', orderHistoryRoutes); // Use order history routes
-app.use('/api/support', supportRoutes); // Use support routes
+app.use('/api/order-history', orderHistoryRoutes); 
+app.use('/api/support', supportRoutes); 
 
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, '../frontend/dist')));
@@ -67,7 +67,7 @@ app.use((err, req, res, next) => {
 });
 
 
-// The "catchall" handler: for any request that doesn't match one above, send back React's index.html file.
+
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
 });

@@ -15,7 +15,7 @@ router.post('/', authenticateToken, async (req, res) => {
       description,
       category,
       userId,
-      status, // Include status in the new item
+      status, 
     });
 
     await newItem.save();

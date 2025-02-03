@@ -68,99 +68,7 @@ function Signup() {
   };
 
   return (
-    // <div className="whole">
-    //   <nav className="navbar">
-    //     <div className="navbar-brand">
-    //       <img
-    //         src="/650c7525713f5d255e612a01_Best-places-to-buy-websites.jpg"
-    //         alt="Buy&Sell Icon"
-    //         className="navbar-icon"
-    //       />
-    //       Buy&Sell
-    //     </div>
-    //   </nav>
-      
-
-    //   <div className="app-img">
-    //     <img src="/Sale.jpg" alt="Sale" />
-    //   </div>
-    //   <div className="signup-container container mt-5">
-    //     <h2 className="text-center mb-4">SignUp</h2>
-    //     <form onSubmit={handleSubmit}>
-    //       <div className="form-group">
-    //         <label>First Name:</label>
-    //         <input
-    //           type="text"
-    //           className="form-control"
-    //           value={firstName}
-    //           onChange={(e) => setFirstName(e.target.value)}
-    //           required
-    //         />
-    //       </div>
-    //       <div className="form-group">
-    //         <label>Last Name:</label>
-    //         <input
-    //           type="text"
-    //           className="form-control"
-    //           value={lastName}
-    //           onChange={(e) => setLastName(e.target.value)}
-    //           required
-    //         />
-    //       </div>
-    //       <div className="form-group">
-    //         <label>Email:</label>
-    //         <input
-    //           type="email"
-    //           className="form-control"
-    //           value={email}
-    //           onChange={(e) => setEmail(e.target.value)}
-    //           required
-    //         />
-    //       </div>
-    //       <div className="form-group">
-    //         <label>Age:</label>
-    //         <input
-    //           type="number"
-    //           className="form-control"
-    //           value={age}
-    //           onChange={(e) => setAge(e.target.value)}
-    //           required
-    //         />
-    //       </div>
-    //       <div className="form-group">
-    //         <label>Contact:</label>
-    //         <input
-    //           type="text"
-    //           className="form-control"
-    //           value={contactNumber}
-    //           onChange={(e) => setContactNumber(e.target.value)}
-    //           required
-    //         />
-    //       </div>
-    //       <div className="form-group">
-    //         <label>Password:</label>
-    //         <input
-    //           type="password"
-    //           className="form-control"
-    //           value={password}
-    //           onChange={(e) => setPassword(e.target.value)}
-    //           required
-    //         />
-    //       </div>
-    //       <button type="submit" className="btn btn-primary btn-block">
-    //         Signup
-    //       </button>
-    //     </form>
-    //     {message && <p className="mt-3 text-center text-danger">{message}</p>}
-    //     <div>
-    //       <br></br>
-    //       <h5>
-    //         {" "}
-    //         If already registered, click here <Link to="/login">Login</Link>
-    //       </h5>
-    //     </div>
-    //   </div>
-    // </div>
+    
     <div className="signup">
   <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#727D73" }}>
     <div className="container">
@@ -175,15 +83,6 @@ function Signup() {
     </div>
   </nav>
 
-  {/* <div className="container mt-5 d-flex flex-column align-items-center">
-    <div className="app-img mb-4">
-      <img
-        src="/Sale.jpg"
-        alt="Sale"
-        className="rounded img-fluid"
-        style={{ maxWidth: "600px" }}
-      />
-    </div> */}
 
 <div className="container mt-5">
   <div className="row">
